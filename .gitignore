@@ -1,0 +1,7 @@
+.idea
+.tox
+.orig
+*.egg-info
+**/__pycache__
+.coverage
+coverage-report

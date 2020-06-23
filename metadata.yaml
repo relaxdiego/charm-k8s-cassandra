@@ -1,0 +1,21 @@
+name: "cassandra"
+display-name: "Cassandra"
+summary: "Cassandra Operator for Kubernetes"
+maintainers:
+    - "Mark Maglana <mark.maglana@canonical.com>"
+description: |
+  Deploys and operates Cassandra on Kubernetes
+tags:
+    - "application"
+series:
+    - "kubernetes"
+provides:
+requires:
+resources:
+    cassandra-image:
+        type: oci-image
+        description: "Image used for UI pod."
+storage:
+  database:
+    type: filesystem
+    location: /cassandra-data
